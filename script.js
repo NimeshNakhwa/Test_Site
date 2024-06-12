@@ -1,5 +1,19 @@
 n=73
 a=Number(prompt("Choose the Level :\n1] Easy : 15 Attempts.\n2] Medium : 10 Attempts.\n3] Hard : 5 Attempts"))
+function startGame(level){
+switch(level) {
+    case 1:
+        b = 15;
+        break;
+    case 2:
+        b = 10;
+        break;
+    case 3:
+        b = 5;
+        break;
+    default:
+        b = 0;
+}
 if(a=1)
 {
     console.log("Easy Level.\nYou Have 15 attempts.")
@@ -88,5 +102,5 @@ else
 {
     console.log("Invalid Input.")
 }
-
+}
 
