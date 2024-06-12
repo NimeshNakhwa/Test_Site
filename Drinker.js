@@ -1,4 +1,4 @@
-<script>
+
     arr=[
         {'name' : 'Nimesh' , 'age':23 },
         {'name' : 'Harsh' , 'age': 24 },
@@ -23,4 +23,4 @@
     }
 
     checkAge(arr)
-</script>
+
