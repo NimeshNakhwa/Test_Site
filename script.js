@@ -1,4 +1,4 @@
-function startGame(level) {
+document.addEventListener('DOMContentLoaded', function startGame(level) {
     var n = 73;
     var attempts;
     switch(level) {
@@ -36,5 +36,6 @@ function startGame(level) {
         alert("Invalid level selected.");
     }
 }
+);
 
 
